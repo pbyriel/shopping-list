@@ -1,0 +1,11 @@
+#main {}
+#list {}
+
+/* List items */
+.todo {}
+.done{}
+
+/* Input styling */
+input {}
+input:focus, input:hover {}
+input:active

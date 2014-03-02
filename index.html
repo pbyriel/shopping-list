@@ -2,13 +2,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Shopping list</title>
+    <!--Add favicon here -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
 <body>
-    <div id="main"></div>
+    <div id="main">
+        <div id="head">
+            <h1>Shopping list</h1>
+            <div id="form">
+                <input id="item" type="text" placeholder="Type item here"></input>
+                <input id="add" type="submit" value="Add">
+            </div>
+        </div>
+        <div id="list">
+            <ul>
+                <li class="todo">Milk</li>
+                <li class="todo">Eggs</li>
+                <li class="todo">Meat</li>
+                <li class="done">The paper</li>
+                <li class="done">Coffee</li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
