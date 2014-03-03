@@ -1,11 +1,45 @@
-#main {}
-#list {}
+#main {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-top: none;
+    font-family: serif;
+}
 
+#head {
+    padding-top: 10px;
+}
+
+#form {
+    padding-bottom: 20px;
+}
+
+#add {
+    display: inline-block;
+}
+
+#list {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 125%;
+    padding-bottom: 20px;
+}
 /* List items */
 .todo {}
-.done{}
+.done {
+    color: lightgrey;
+    text-decoration: line-through;
+    
+}
 
 /* Input styling */
-input {}
+input {
+    width: 150;
+}
 input:focus, input:hover {}
 input:active
