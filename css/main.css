@@ -12,6 +12,17 @@
     padding-top: 10px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#count {
+    padding-bottom: 10px;
+}
+
 #form {
     padding-bottom: 20px;
 }
@@ -30,16 +41,31 @@ h1 {
     padding-bottom: 20px;
 }
 /* List items */
-.todo {}
+li {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todo:hover, .done:hover {
+    cursor: hand;
+    color: tomato;
+}
 .done {
     color: lightgrey;
     text-decoration: line-through;
-    
 }
 
 /* Input styling */
 input {
     width: 150;
+	border: 1px solid #D8D8D8
 }
-input:focus, input:hover {}
-input:active
+
+input:hover {
+	border-color: #b6b6b6;
+}
+
+input:focus {
+	border-color: tomato/*rgb(30, 120, 255)*/;
+	outline: none;
